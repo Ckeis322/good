@@ -1,0 +1,79 @@
+.загол{
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+    background-color: black;
+
+    
+
+}
+.загол{
+    background-color: orange;
+}
+
+.center {
+    text-align: center;
+    
+  }
+  
+  .right {
+    text-align: right;
+    
+  }
+  
+  .justify {
+    text-align: justify;
+    
+  }
+  {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* ~~~~~~~~~~SKY~~~~~~~~~~ */
+  
+  #sky {
+    position: relative;
+    z-index: -100;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( to top, midnightblue, black);
+  }
+  
+  
+  /* ~~~~~~~~~~MOON~~~~~~~~~~ */
+  
+  .moon {
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  #dark-moon {
+    background-color: silver;
+  }
+  
+  #light-moon {
+    background-color: goldenrod;
+    background-image: radial-gradient(dimgrey 20%, transparent 16%), radial-gradient(dimgrey 15%, transparent 16%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    opacity: 60%;
+  }
+  
+  
+  /* ~~~~~~~~~~SEA~~~~~~~~~~ */
+  
+  #sea {
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    height: 25vh;
+    background-color: #48B;
+  }
