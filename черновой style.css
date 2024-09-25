@@ -1,4 +1,4 @@
-.загол{
+/* .загол{
     text-align: center;
     padding-top: 100px;
     color: aliceblue;
@@ -9,9 +9,9 @@
 }
 .загол{
     background-color: orange;
-}
+} */
 
-.center {
+/* .center {
     text-align: center;
     
   }
@@ -32,21 +32,21 @@
     box-sizing: border-box;
   }
   
-  
+   */
   /* ~~~~~~~~~~SKY~~~~~~~~~~ */
   
-  #sky {
+  /* #sky {
     position: relative;
     z-index: -100;
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient( to top, midnightblue, black);
   }
-  
+   */
   
   /* ~~~~~~~~~~MOON~~~~~~~~~~ */
   
-  .moon {
+  /* .moon {
     position: absolute;
     top: 3%;
     right: 0%;
@@ -66,14 +66,109 @@
     background-position: 0 0, 30px 30px;
     opacity: 60%;
   }
-  
+   */
   
   /* ~~~~~~~~~~SEA~~~~~~~~~~ */
   
-  #sea {
+  /* #sea {
     position: absolute;
     bottom: 0%;
     width: 100vw;
     height: 25vh;
     background-color: #48B;
-  }
+  } */
+
+  /* a {
+  background-color: red;
+  margin: 50px;
+  border: 3px solid blue;
+  padding: 65px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+form {
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+} */
+
+/* div{
+  padding: 45px 10px 10px 10px;
+  padding-отступы внутренние
+  margin: 40px 10px 10px 10px;
+  margin-внешний отступ от элементов
+
+
+  text-align: center;
+  border: 5px solid red;
+  border-ставит рамку
+  dashed-прерывистая линия
+  solid-непрерывистая линия
+  box-sizing: border-box;-дает определенный размер при  width и height
+   и не выходит за рамки заданных ими значений при прописании border
+   и ему подобных команд 
+  text-align-прописывает для div или p место на странице, например центр или середина
+  display-дает установвить формат, блочный или строчный
+  display: inline-block;
+  display: inline-block-дает только такое место, сколько сам текст
+  
+} */
+
+
+.div1{ 
+  display: inline-block;
+  text-align: center;
+  border: 5px dashed red;
+  margin-bottom: 50px;
+}
+
+.div2{
+  text-align: center;
+  border: 5px solid red;
+}
