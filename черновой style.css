@@ -161,14 +161,23 @@ form button:hover {
 } */
 
 
-.div1{ 
-  display: inline-block;
-  text-align: center;
-  border: 5px dashed red;
-  margin-bottom: 50px;
+/* .btn{
+  display: inline-block; 
+  -строчно-блочный элемент
+  background-color: #8C959D; 
+  -цвет самой кнопки получился серым
+  color: #fff; 
+  -цвет надписи белый
+  padding: 16px 32px; 
+  -отступы вокруг текста
+  text-decoration: none; 
+  -эта команда убирает подчеркивание в ссылке
+  border-radius: 3px; 
+  -закругляет углы
+  margin: 200px;
 }
 
-.div2{
+
+p{
   text-align: center;
-  border: 5px solid red;
-}
+} */
