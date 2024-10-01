@@ -157,27 +157,25 @@ form button:hover {
   display-дает установвить формат, блочный или строчный
   display: inline-block;
   display: inline-block-дает только такое место, сколько сам текст
-  
+  column-count- разделяет текст на равные примерно колонки
+  column-width-выставляет минимум по размеру для разделения на колонки
+  column-gap-создает расстояние между колонками текста
+  column-rule-выставляет для колонок размер, вид, и цвет разделения между ними, как border
+  column-span:all;-позволяет элементу растянуться на несколько колонок при многоколоночной вёрстке.
+  figure-тег, который нужен для вставки текста или звука
+  break-inside- определяет как проиходят разрывы страниц (при печати),
+   колонок или определённых областей перед указанным элементом.
 } */
 
 
-/* .btn{
-  display: inline-block; 
-  -строчно-блочный элемент
-  background-color: #8C959D; 
-  -цвет самой кнопки получился серым
-  color: #fff; 
-  -цвет надписи белый
-  padding: 16px 32px; 
-  -отступы вокруг текста
-  text-decoration: none; 
-  -эта команда убирает подчеркивание в ссылке
-  border-radius: 3px; 
-  -закругляет углы
-  margin: 200px;
+.div1{ 
+  display: inline-block;
+  text-align: center;
+  border: 5px dashed red;
+  margin-bottom: 50px;
 }
 
-
-p{
+.div2{
   text-align: center;
-} */
+  border: 5px solid red;
+}
