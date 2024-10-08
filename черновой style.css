@@ -198,17 +198,63 @@ form button:hover {
       
     </tbody>
 </table>- с этой конструкцией потом разберешься
-} */
+} 
+p:nth-child(even){
+    color: red
+} - окрашивает в нужный цвет тег который ты пропишешь
+ div:nth-of-type(2){
+    color: red;
+} - окрашивает тот элемент который выбрал
+ :first-child — выбирает первый элемент внутри родителя.
+:last-child — выбирает последний элемент внутри родителя.
+:first-of-type — выбирает первый элемент внутри родителя, учитывая тип элемента.
+:last-of-type — выбирает последний элемент внутри родителя, учитывая тип элемента.
+:only-child — выбирает элемент, если он единственный внутри родителя.
+::first-letter-позволяет задать стили для первой буквы первой строки блочного элемента, 
+если перед текстом нет другого содержимого.
+li::before{
+    content: "";
+    background-image: url(/Сердечко.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}-это запомнить, без разницы куда задаем, начинка всегда одна
+
+ul{
+    list-style: none;
+}
+
+li{
+position: relative;
+}
+
+li::before{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    content: "";
+    background-image: url(/Сердечко.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}-чисто пример для прошлого пояснения чтобы понял
+
+div.menu-bar ul ul {
+    display: none;
+  }
+  
+  div.menu-bar li:hover > ul {
+    display: block;
+  }-пример с выпадающей ссылкой 
+*/
 
 
 .div1{ 
-  display: inline-block;
-  text-align: center;
-  border: 5px dashed red;
-  margin-bottom: 50px;
-}
-
-.div2{
-  text-align: center;
-  border: 5px solid red;
-}
+    display: inline-block;
+    text-align: center;
+    border: 5px dashed red;
+    margin-bottom: 50px;
+  }
+  
+  .div2{
+    text-align: center;
+    border: 5px solid red;
+  }
